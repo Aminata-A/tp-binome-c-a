@@ -53,5 +53,32 @@ header{
     width: 2%;
     height: 2%;
     margin-right: 30px;
-    padding: 10px;
+    padding: 5px;
+}
+h1 {
+    color: #ce0033;
+}
+.img{
+    width: 20%;
+    height: 10%;
+    margin: 10px;
+    border-radius: 10%;
+    
+}
+.section , .text {
+    flex-basis: 50%;
+    display: flex;
+    padding:20px ;
+}
+.text{
+    display: block;
+    width: 40%;
+    height: 40%;
+    line-height: 1.9;
+
+}
+.section{
+    width: 100%;
+    background:#fff4f4 ;
+    justify-content: center;
 }
