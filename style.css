@@ -14,11 +14,11 @@ body{
     background-image: url(images/26.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 80vh;
+    min-height: 70vh;
     position: relative;
     padding-top: 9%;
     padding-left: 8%;
-}h
+}
 .banniere::before{
     content: '';
     background-color: #000000;
@@ -49,12 +49,10 @@ h1{
     font-weight: bold;
     border-radius: 25px;
     width: 12em; 
-    height: 3em;
+    height: 3.5em;
 }
 main{
-    width: 80%;
     justify-content: center;
-    margin-left:3.5% ;
 }
 h2, h3{
     color: #ce0033;
@@ -71,6 +69,26 @@ h3{
     flex-direction: row;
     display: flex;
     align-items: center;
+    margin-left:3.5% ;
+    
+    width: 80%;
+}
+.image-act p{
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    padding-bottom: 8px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 200px;
+    margin-top: -10px;
+    position: absolute;
+    background-color: #ce0033;
+}
+.image-act p span{
+    font-size: 10px;
 }
 .img-actualite{
     width: 20vw;
@@ -79,7 +97,53 @@ h3{
 }
 .total-actualite{
     padding: 20px;
+
 }
 .actualite-1{
     font-weight: bold;
+}
+h4{
+    color: #ce0033;
+    font-size: 1.5em;
+    text-align: right;
+}
+h4 span{
+    color: #fff;
+    background-color: #ce0033;
+    padding: 5px;
+    border-radius: 50%;
+}
+.decouverte{
+    background-image:linear-gradient(#5144443e, #514444b1) , url(images/35.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 8%;
+    padding-left: 8%;
+    margin-top: 50px;
+    color: white;
+}
+.decouverte-h1{
+    font-size: 5em;
+    padding-top: 150px;
+}
+.decouverte p{
+    font-size: 20px;
+}
+.decouverte-chiffre{
+    background-image:  url(images/decouverte.png);
+    display: flex;
+    position: absolute;
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top:-50px;
+    margin-left: 5%;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+}
+h5{
+    font-size: 3em;
 }
