@@ -51,6 +51,11 @@ h1{
     width: 12em; 
     height: 3.5em;
 }
+.p-bannier{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
 main{
     justify-content: center;
 }
@@ -195,6 +200,9 @@ h5{
 
 }
 .ep-img{
+    margin-left: 8%;
+}
+.Pedagogique-img{
     margin-left: 8%;
 }
 section{
