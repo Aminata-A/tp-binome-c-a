@@ -153,8 +153,12 @@ h5{
     display: flex;
     margin-left: 5%;
 }
-.info-apprenant {
-    padding-top: 155px;
+.info-apprenant h3{
+    padding-top: 70px;
+    border-bottom: solid 2px #000;
+}
+.info-apprenant p{
+    padding-top: 150px;
 }
 .card-apprenant{
     border: solid 10px #5f5e5e3a;
@@ -163,6 +167,21 @@ h5{
     background-color: #f8f8f8;
     margin-left: 70px;
     margin-top: 70px;
+    
+}
+.card-apprenant-1{
+    border: solid 10px #5f5e5e3a;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    margin-right: 70px;
+    margin-top: 70px;
+    
+}
+.card-apprenant-1 p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 20px;
     
 }
 .card-apprenant p{
@@ -175,4 +194,7 @@ h5{
     border-bottom: solid 4px #ce0033;
     margin-right: 45px;
 
+}
+.ep-img{
+    margin-left: 8%;
 }
