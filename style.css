@@ -197,3 +197,57 @@ h5{
 .ep-img{
     margin-left: 8%;
 }
+section{
+    display: block;
+    width: 15%;
+}
+footer{
+    background-image: url(images/footer.jpeg);
+    background-size: 100vh;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.section{
+    padding-top: 7rem;
+}
+
+.p-footer1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.p-footer{
+    color: #ffffff;
+}
+.h5-footer{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.form-footer{
+    display: flex;
+}
+.a-footer{
+    color: #ffffff;
+    text-decoration: none;
+}
+.button-footer {
+    background-color: #ce0033;
+    border: none;
+    height: 2rem;
+    color: #ffffff;
+    border-radius: 3px;
+}
+#mail{
+    height: 2rem;
+    border-radius: 3px;
+}
+.footer2{
+    display: flex;
+    color: #ffffff;
+    background-color: #ce0033;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 1rem;
+}
