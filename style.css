@@ -54,6 +54,9 @@ header a.active {
     color: #ce0033 ;
     text-decoration: underline;
 }
+#header-select{
+    border: none;
+}
 
 header button{
     background-color: #ce0033;
@@ -253,15 +256,28 @@ main{
 #formateurs .formateur-list {
     display: flex;
     justify-content: space-around;
-    margin: 30px;    
+    margin: 30px; 
+    justify-content: space-around;
 }
 
 #formateurs .formateur-list .formateur-item img{
-    width: 50%;
-    height: 30%;
+    width: 7rem;
+    height: 10rem;
     margin: 50px;
     border-radius: 10%;
+}
+
+.formateur-item{
+    display: flex;
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+}
+.formateurs-text{
+    margin-top: 10rem;
+    width: 40%;
 } 
+.formateurs-text h6{
+    font-size: 1.5rem;
+}
 
 /* DECOUVERTE */
 
@@ -327,8 +343,6 @@ h5{
 .card-apprenant-1{
     box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
     width: 500px;
-
-
     border-radius: 15px;
     background-color: #f8f8f8;
     margin-right: 70px;
@@ -351,6 +365,30 @@ h5{
     margin-right: 45px;
 
 }
+/*Petites histoire de la communaute*/
+#phcom{
+    display: flex;
+    margin-left: 40px;
+}
+.phc-titre{
+    display: flex;
+}
+.phc-titre h6{
+    font-size: 1.5em;
+}
+.phc-img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.trait{
+    border: solid 1.5px #000;
+    border-radius: 10px;
+    width: 60px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    
+}
 
 
 /* EQUIPE PEDAGOGIQUE */
@@ -359,6 +397,7 @@ h5{
 }
 .Pedagogique-img{
     margin-left: 8%;
+    box-shadow: 7px 5px 5px rgba(49, 48, 48, 0.484);
 }
 
 /* FOOTER */
