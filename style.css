@@ -161,7 +161,7 @@ h5{
     padding-top: 150px;
 }
 .card-apprenant{
-    border: solid 10px #5f5e5e3a;
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
     width: 500px;
     border-radius: 15px;
     background-color: #f8f8f8;
@@ -170,12 +170,11 @@ h5{
     
 }
 .card-apprenant-1{
-    border: solid 10px #5f5e5e3a;
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
     width: 500px;
     border-radius: 15px;
     background-color: #f8f8f8;
     margin-right: 70px;
-    margin-top: 70px;
     
 }
 .card-apprenant-1 p{
