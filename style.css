@@ -28,36 +28,23 @@ h3{
 
 /* HEADER */
 header{
-    background-color: #f8f8f8;
-    font-family: nunito, sans-serif;
-    font-size: 16px;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header nav a{
+    justify-content: space-around;
+    margin: 10px;
+    text-decoration: none;
     color: #000;
-    line-height: 1.3px;
-    margin: 0;
-    padding: 12px;
-    margin:0.6px;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-} 
-
+}
 header img {
-    width: 10%;
-    height: 10%;
-    display: flex;
+    width: 150px;
+    height: 50;
 }
-header nav a {
-    text-decoration: none;
-    align-items:left;
-    justify-content: space-between;
-    margin-left: 20px;
-    color:inherit;
-    text-align: center;
-    padding: 0 90px;
-    line-height: 1.8;
 
-}
 /* header nav:hover{
     text-decoration: underline;
     color:#ce0033
@@ -70,11 +57,11 @@ header a.active {
 
 header button{
     background-color: #ce0033;
-    padding: 1px;
-    margin: 4px 2px;
+    width: 70px;
+    height: 35px;
     color: #f8f8f8;
-    border-radius: 15px;
-    margin-right: 30px;
+    border-radius: 35px;
+    border: none;
 }
 
 /* MAIN */
@@ -172,27 +159,41 @@ main{
 
 #event .event-list {
     display: flex;
-    justify-content: space-around;
     margin: 30px;
     color: #fff;
+    justify-content: space-around;
 }
 
 #event .event-list div.event-item:nth-child(1) {
     flex-wrap: wrap;
     display: flex;    
-    width: 650px;
-    height:110px;
+    width: 450px;
+    height:130px;
     background: #ce0033;
     padding: 20px;
     align-items: center;
+    border-radius: 10px;
 }
 
 #event .event-list div.event-item:nth-child(2) {
-    width: 650px;
-    height: 110px;
+    display: flex;
+    width: 450px;
+    height: 130px;
     background: #ce0033;
     padding: 20px;
     align-items: center;
+    border-radius: 10px;
+}
+.event-nombre{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.date{
+    margin: 10px;
+}
+.event-text{
+    font-weight: bold;
 }
 
 /* ACTUALITES */
