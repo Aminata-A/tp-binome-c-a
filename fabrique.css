@@ -146,6 +146,7 @@ header div button{
 /* */
 #petite-histoire {
     justify-content: space-around;
+    
 }
 #petite-histoire h2{
     font-size: 3em;
@@ -161,17 +162,20 @@ header div button{
 }
 #petite-histoire p{
     text-align: center;
-    margin-left: 150px;
     width: 30rem;
+    font-style: italic;
 }
 .histoire {
     display: flex;
-    position: relative; 
+    justify-content: space-around;
+    position: relative;
+    padding: 3rem;
     background-color:#f8f8f8;
 }
 
 
 .histoire .texte {
+    
     background: #ce0033;
     z-index: 1;
     position: absolute;
