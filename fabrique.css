@@ -145,3 +145,120 @@
     color: #ce0033;
     font-size: 1.5em;
 }
+#offres{
+    display: flex;
+    margin-top: 5em;
+    justify-content: space-around;
+}
+
+.offres{
+    background-color: #fff4f4;
+    width: 35vw;
+    padding: 3em;
+    border-radius: 30px;
+}
+.offres h3{
+    color: #ce0033;
+    font-size: 2em;
+    border-bottom: solid 1px #ce0033;
+}
+.premier-section-offre {
+    display: flex;
+    justify-content: space-between;
+}
+.premier-section-offre h4{
+    font-size: 1.3em;
+}
+.premier-section-offre  p{
+    border: solid 1.5px #ce0033;
+    border-radius: 10px;
+    width: 3vw;
+    height: 0vw;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+}
+.deuxieme-section-offre {
+    display: flex;
+}
+.deuxieme-section-offre p{
+    width: 14vw;
+}
+.deuxieme-section-offre span{
+    color: #ce0033;
+}
+.troisieme-section-offre{
+    background-color: #ffffff;
+    width: 15vw;
+    box-shadow: 1px 1px 5px 5px rgba(156, 154, 154, 0.071);
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+.offres button{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ce0033;
+    border: none;
+    width: 9vw;
+    height: 2vw;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+.quatrieme-section-offre{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1.5px #ce0033;
+}
+.quatrieme-section-offre img{
+    padding-top: 1rem;
+}
+.cinquieme-section-offre{
+    border-top: solid 1.5px #ce0033;
+    padding-top: 1rem;
+    text-align: right;
+}
+.cinquieme-section-offre a{
+    color: #000000;
+}
+ .form-nom .form-adress{
+     display: flex;
+ }
+ .form{
+     width: 15rem;
+     height: 3rem;
+     margin: 8px;
+     color: #8f8a8a49;
+ }
+ .form-message{
+     width: 32rem;
+     height: 9rem;
+     margin: 5px;
+     color: #8f8a8a49;
+ }
+ .form-checkbox{
+     display: flex;
+     margin: 5px;
+ }
+ #formulaire p{
+     padding-left: 3px;
+     color: #8f8a8a49;
+ }
+ .form-checkbox p span{
+     color: #ce0033;
+     font-weight: bold;
+ }
+ .formulaire button{
+     background-color: #ce0033;
+     border: none;
+     border-radius: 40px;
+     color: #ffffff;
+     font-size: 1em;
+     font-weight: bold;
+     width: 8rem;
+     height: 3rem;
+     margin: 5px;
+ }
+ .form-element{
+    margin-top: 5rem;
+ }
+ 
+
