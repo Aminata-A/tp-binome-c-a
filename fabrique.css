@@ -102,12 +102,13 @@ header div button{
     display: flex;
     background-color: #ce0033;
     justify-content: center;
+
     text-align: center;
     width: 70%;
     height: auto;
     color: white;
     text-align: justify;
-    opacity: -5px;
+    opacity: 0.7;
     top: 80%;
     left: 50%;
     transform: translateX(-50%);
@@ -143,11 +144,25 @@ header div button{
 
 
 /* */
-
-.title {
+#petite-histoire {
+    justify-content: space-around;
+}
+#petite-histoire h2{
+    font-size: 3em;
+    color:#ce0033;
+    text-align: center;
+    margin: 3rem;
+}
+#petite-histoire h3{
+    font-size: 2em;
     color:#ce0033;
     text-align: center;
     margin-left: 180px;
+}
+#petite-histoire p{
+    text-align: center;
+    margin-left: 150px;
+    width: 30rem;
 }
 .histoire {
     display: flex;
@@ -173,13 +188,9 @@ header div button{
     bottom: 10%;
     padding: 7px;
 }
-.lorem {
-    text-align: center;
-    margin-left: 150px;
-}
+
 .ouverture {
-    width: 50%;
-    margin-left: 350px;
+    width: 30rem;
 }
 
 
@@ -443,10 +454,9 @@ header div button{
     display: flex;
     justify-content: space-between;
     border-top: solid 1.5px #ce0033;
+    padding: 1rem;
 }
-.quatrieme-section-offre img{
-    padding-top: 1rem;
-}
+
 .cinquieme-section-offre{
     border-top: solid 1.5px #ce0033;
     padding-top: 1rem;
