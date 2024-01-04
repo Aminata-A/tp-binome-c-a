@@ -57,12 +57,12 @@
   } 
 .card-fabrique{
     /*display: grid;*/
-    width: 18vw;
+    width: 22vw;
 
 }
 .fabrique-image {
     object-fit: cover;
-    width: 18vw;
+    width: 22vw;
     height: 12vw;
   } 
   .fleche{
