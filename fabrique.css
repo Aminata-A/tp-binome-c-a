@@ -42,6 +42,8 @@
     color: #ce0033;
     font-size: 1em;
   }
+
+  /*Ici la fabrique*/
   #fabrique h2{
     color: #ce0033;
     font-size: 3em;
@@ -68,3 +70,54 @@
   .fleche{
     padding-top: 10em;
   }
+
+  /*Voyager au coeur de la fabrique*/
+  #vac-fabrique{
+    background-image: url(fabrique-img/fondvac.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    position: relative;
+    display: flex;
+    padding-top: 5em;
+    padding-bottom: 1em ;
+    margin-top: 4em;
+    justify-content: space-around;
+
+}
+#vac-fabrique::before{
+    content: '';
+    background-color: #ffffff;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+    z-index: 1;
+}
+#vac-fabrique p,  img{
+    position: relative;
+    color: #000000;
+    z-index: 2;
+    padding-bottom: 15px;
+}
+#vac-fabrique p{
+    width: 40vw;
+}
+#vac-fabrique h3{
+    color: #ce0033;
+    font-size: 1.7em;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 15px;
+}
+#vac-fabrique span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#vac-fabrique img{
+    width: 35vw;
+    height: 25vw;
+    box-shadow: 1px 5px 5px rgba(139, 137, 137, 0.644);
+}
