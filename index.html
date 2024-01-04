@@ -127,7 +127,7 @@
 
         <!--Evenement-->
         <section id="event">
-            <h2>Evenements à venir</h2>
+            <h3>Evenements à venir</h3>
             <div class="event-list">
                 <div class="event-item">
                 <div class="date">
@@ -186,7 +186,7 @@
 
             <!--Formateurs-->
         <section id="formateurs">
-            <h2>Formateurs</h2>
+            <h3>Formateurs</h3>
             <div class="formateur-list">
                 <div class="formateur-item">
                     <img src="images/19.png" alt="Présentation Formateur">
@@ -227,6 +227,7 @@
             <div class="apprenant">
                 <div class="info-apprenant">
                     <h3>Apprenants</h3>
+                    <p class="trait-apprenant">  </p>
                     <p>LoreJm ipsum dolor sit, amet consectetur
                         adipisicing elit. Dolor quod eius nisi quidem velit
                         tenetur, quia, animi sit obcaecati, tempora esse
@@ -249,6 +250,7 @@
                 </div>
                 <div class="info-apprenant">
                     <h3>Histoire de la communauté</h3>
+                    <p class="trait-apprenant">  </p>
                     <p>LoreJm ipsum dolor sit, amet consectetur
                         adipisicing elit. Dolor quod eius nisi quidem velit
                         tenetur, quia, animi sit obcaecati, tempora esse
@@ -349,56 +351,51 @@
             </div>
         </section>
         <!-- FORMULAIRE -->
+        <h2>Nous Contacter</h2>
         <section id="formulaire">
-            <div class="formu">
+    
+            <div class="formulaire">
                 <form action="#" method="post">
-                    <div>
-                        <div style="display: flex; gap: 200px;">
-                            <label for="prenom">Prénom:</label>
-                            <label for="Nom">Nom:</label> <br>
-
-
-                        </div>
-                        <div style="display: flex; gap: 80px;">
-                            <input type="text" id="prenom" name="prenom" required>
-                            <input type="text" id="Nom" name="Nom" required>
+                    <div class="form-nom">
+                        <div>
+                            <input class="form" type="text" value="Prénom*" id="prenom" name="prenom" required>
+                            <input class="form" type="text" value="Nom*" name="Nom" required>
                         </div>
                     </div>
-                    <br>
-                    <div>
-                        <div style="display: flex; gap: 150px;">
-                            <label for="adresse_email">Adresse email:</label>
-                            <label for="telephone">Téléphone:</label><br>
-                        </div>
-                        <div style="display: flex; gap: 80px;">
-                            <input type="email" id="adresse_email" name="adresse_email" required>
-                            <input type="tel" id="telephone" name="telephone" required>
+                    <div class="form-adress">
+                        <div>
+                            <input class="form" type="email" value="Adresse email*" id="adresse_email" name="adresse_email" required>
+                            <input class="form" type="tel" value="Téléphone*" id="telephone" name="telephone" required>
                         </div>
                     </div>
-
-                    <br>
                     <div>
-                        <label for="message">message:</label><br>
-                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <textarea class="form-message" id="message"  name="message" rows="4" required>message*</textarea>
                     </div>
-                    <br>
-                    <div>
-                        <button type="submit">Réservez maintenant:</button>
+                    <div class="form-checkbox">
+                        <input type="checkbox"> 
+                        <p>I agree to <span>terms et policy</span></p>
                     </div>
+                        <button  type="submit">Envoyer</button>
+                        <p>* These fields are required</p>
                 </form>
             </div>
 
-            <div class="address">
-                <p>
-                <h4>Vous souhaitez vivre<br>
-                    l'experience Kilife barbershop ?</h4>
-                Appelez-nous et réservez votre session.
-                </p>
-                <p>
-                    <span class="encadre">+221 33 860 45 78</span> |
-                    <span class="encadre">barbershop@kilife.men</span> |
-                    <span class="encadre">+221 78 582 4141</span>
-                </p>
+            <div class="adress">
+                <div class="adress-div">
+                    <h6>Adress</h6>
+                    <p>Cité keur Goor Gi</p>
+                    <p>Dakar, Sicap, Libeté 2</p>
+                </div>
+                <div class="adress-div">
+                    <h6>Téléphone</h6>
+                    <p >(221) 77 456 78 90</p>
+                    <p >(221) 77 654 32 10</p>
+                </div>
+                <div class="adress-div">
+                    <h6>E-mail</h6>
+                    <a class="adress-mail" href="#">simplon@email.com </a>
+                    <a class="adress-mail" href="#">help@simplon.com</a>
+                </div>
             </div>
         </section>
     </main>

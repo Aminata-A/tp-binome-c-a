@@ -14,9 +14,14 @@ body{
 h2, h3{
     color: #ce0033;
 }
+h3{
+    margin-top: 5rem;
+    
+}
 h2{
     font-size: 3em;
     text-align: center;
+    margin: 5rem;
 }
 h3{
     font-size: 2em;
@@ -399,7 +404,62 @@ h5{
     margin-left: 8%;
     box-shadow: 7px 5px 5px rgba(49, 48, 48, 0.484);
 }
-
+/*Formulaire*/
+#formulaire{
+    display: flex;
+}
+.adress-mail{
+    display: block;
+    text-decoration: none;
+}
+.adress-div{
+    padding-bottom: 3rem;
+}
+.adress h6{
+    font-size: 1.5em;
+}
+.adress .adress-div p{
+    font-size: 1.5em;
+}
+/*Formulaire*/
+.form-nom .form-adress{
+    display: flex;;
+}
+.form{
+    width: 15rem;
+    height: 3rem;
+    margin: 8px;
+    color: #6161617d;
+}
+.form-message{
+    width: 31.5rem;
+    height: 9rem;
+    margin: 5px;
+    color: #6161617d
+}
+.form-checkbox{
+    display: flex;
+    margin: 5px;
+}
+#formulaire p{
+    padding-left: 3px;
+    color: #6161617d;
+}
+.form-checkbox p span{
+    color: #ce0033;
+    font-weight: bold;
+}
+.formulaire button{
+    background-color: #ce0033;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    width: 8rem;
+    height: 3rem;
+    margin: 5px;
+}
 /* FOOTER */
 
 footer section{
