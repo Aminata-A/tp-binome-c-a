@@ -100,7 +100,6 @@
     position: relative;
     color: #000000;
     z-index: 2;
-    padding-bottom: 15px;
 }
 #vac-fabrique p{
     width: 40vw;
@@ -120,4 +119,29 @@
     width: 35vw;
     height: 25vw;
     box-shadow: 1px 5px 5px rgba(139, 137, 137, 0.644);
+}
+
+/*Recrutement*/
+#recrutement h2{
+    color: #ce0033;
+    font-size: 3em;
+    text-align: center;
+    margin: 3rem;
+}
+.recrutement {
+    display: flex;
+}
+.recrutement img{
+    width: 40vw;
+    height: 20vw;
+    margin-left: 4rem;
+    box-shadow: 1px 5px 5px rgba(146, 143, 143, 0.701);
+}
+.recrutement-text{
+    width: 40vw;
+    margin-left: 3rem;
+}
+.recrutement-text h3{
+    color: #ce0033;
+    font-size: 1.5em;
 }
