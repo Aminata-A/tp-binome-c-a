@@ -140,7 +140,6 @@ main{
     
 }
 #chiffre{
-    width: 100%;
     background:#fff4f4 ;
     justify-content: center;
 }
@@ -466,6 +465,9 @@ h5{
     width: 8rem;
     height: 3rem;
     margin: 5px;
+}
+.adresse::before{
+    url
 }
 /* FOOTER */
 
