@@ -10,7 +10,7 @@
         text-align: center;
         font-size: 1.5em;
 }
-.cards {
+.cards-equipe {
     display: flex;
     grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
     grid-gap: 20px;
@@ -18,7 +18,7 @@
     justify-content: space-around;
   }
   
-  .card {
+  .card-equipe {
     display: grid;
     justify-content: space-around;
     /* grid-template-columns: max-content 200px 1fr; */
@@ -41,4 +41,30 @@
   #equipe span{
     color: #ce0033;
     font-size: 1em;
+  }
+  #fabrique h2{
+    color: #ce0033;
+    font-size: 3em;
+    text-align: center;
+    margin: 3rem;
+}
+.cards-fabrique {
+    display: flex;
+    /*grid-template-columns: repeat(auto-fill, minmax(2, 1fr));*/
+    /* grid-gap: 20px;*/
+    /*vertical-align: middle;*/
+    justify-content: space-around;
+  } 
+.card-fabrique{
+    /*display: grid;*/
+    width: 18vw;
+
+}
+.fabrique-image {
+    object-fit: cover;
+    width: 18vw;
+    height: 12vw;
+  } 
+  .fleche{
+    padding-top: 10em;
   }
