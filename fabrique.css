@@ -511,6 +511,41 @@ header div button{
     margin-top: 5rem;
 }
 
+/*Ils en parlent*/
+#discussion h2{
+    color: #ce0033;
+    font-size: 3em;
+    text-align: center;
+    margin: 3rem;
+}
+.discussion-p{
+        text-align: center;
+        font-size: 3em;
+}
+.cards-discussion {
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
+    grid-gap: 20px;
+    vertical-align: middle;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+.card-discussion {
+    display: grid;
+    justify-content: space-around;
+    /* grid-template-columns: max-content 200px 1fr; */
+    padding: 1em;
+    width: 40vw; 
+    text-align: center;
+}
+  
+.image-discussion {
+    object-fit: cover;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
 
 
 
