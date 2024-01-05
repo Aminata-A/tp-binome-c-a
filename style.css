@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+
+
+/* GENERAL */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito-Sans';
+}
+body{
+    background-color: #f8f8f8;
+    min-height: 100vh;   
+    font-size: 16px;
+    width: 100%;
+}
+h2, h3{
+    color: #ce0033;
+}
+h3{
+    margin-top: 5rem;
+    
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    margin: 5rem;
+}
+h3{
+    font-size: 2em;
+    padding: 20px;
+}
+.section{
+    padding-top: 7rem;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header nav a{
+    justify-content: space-around;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+}
+header img {
+    width: 150px;
+    height: 50;
+}
+
+/* header nav:hover{
+    text-decoration: underline;
+    color:#ce0033
+} */
+header a:hover,
+header a.active {
+    color: #ce0033 ;
+    text-decoration: underline;
+}
+#header-select{
+    border: none;
+}
+
+header button{
+    background-color: #ce0033;
+    width: 70px;
+    height: 35px;
+    color: #f8f8f8;
+    border-radius: 35px;
+    border: none;
+}
+
+/* MAIN */
+
+main{
+    justify-content: center;
+}
+
+
+/* BANNIERES */
+
+#banniere{
+    background-image: url(images/26.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    position: relative;
+    padding-top: 9%;
+    padding-left: 8%;
+}
+#banniere::before{
+    content: '';
+    background-color: #000000;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+    z-index: 1;
+}
+#banniere p, #banniere h1 {
+    position: relative;
+    color: #ffffff;
+    z-index: 2;
+    padding-bottom: 15px;
+}
+#banniere h1{
+    font-size: 40px;
+}
+#banniere button{
+    position: relative;
+    z-index: 2;
+    background-color: #ce0033;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 12em; 
+    height: 3.5em;
+}
+#banniere .p-bannier{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+/* CHIFFRES */
+
+
+#chiffre img{
+    width: 20%;
+    height: 10%;
+    margin: 10px;
+    border-radius: 10%;
+    
+}
+#chiffre{
+    background:#fff4f4 ;
+    justify-content: center;
+}
+
+#chiffre , #chiffre div {
+    flex-basis: 50%;
+    display: flex;
+    padding:20px ;
+    margin-left: 30px;
+}
+#chiffre div{
+    display: block;
+    width: 40%;
+    height: 40%;
+    line-height: 1.9;
+}
+
+#chiffre div h1 {
+    color: #ce0033;
+}
+
+
+
+/* EVENT */
+
+#event .event-list {
+    display: flex;
+    margin: 30px;
+    color: #fff;
+    justify-content: space-around;
+}
+
+#event .event-list div.event-item:nth-child(1) {
+    flex-wrap: wrap;
+    display: flex;    
+    width: 450px;
+    height:130px;
+    background: #ce0033;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#event .event-list div.event-item:nth-child(2) {
+    display: flex;
+    width: 450px;
+    height: 130px;
+    background: #ce0033;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+.event-nombre{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.date{
+    margin: 10px;
+}
+.event-text{
+    font-weight: bold;
+}
+
+/* ACTUALITES */
+
+#nouvelles .actualite{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left:3.5% ;
+    
+    width: 80%;
+}
+#nouvelles .image-act p{
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    padding-bottom: 8px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 200px;
+    margin-top: -10px;
+    position: absolute;
+    background-color: #ce0033;
+}
+#nouvelles .image-act p span{
+    font-size: 10px;
+}
+#nouvelles .img-actualite{
+    width: 20vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+#nouvelles .total-actualite{
+    padding: 20px;
+
+}
+#nouvelles .actualite-1{
+    font-weight: bold;
+}
+#nouvelles h4{
+    color: #ce0033;
+    font-size: 1.5em;
+    text-align: right;
+}
+#nouvelles h4 span{
+    color: #fff;
+    background-color: #ce0033;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+/* FORMATEURS */
+
+#formateurs .formateur-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px; 
+    justify-content: space-around;
+}
+
+#formateurs .formateur-list .formateur-item img{
+    width: 7rem;
+    height: 10rem;
+    margin: 50px;
+    border-radius: 10%;
+}
+
+.formateur-item{
+    display: flex;
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+}
+.formateurs-text{
+    margin-top: 10rem;
+    width: 40%;
+} 
+.formateurs-text h6{
+    font-size: 1.5rem;
+}
+
+/* DECOUVERTE */
+
+#decouverte .decouverte{
+    background-image:linear-gradient(#5144443e, #514444b1) , url(images/35.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 8%;
+    padding-left: 8%;
+    margin-top: 50px;
+    color: white;
+}
+#decouverte .decouverte-h1{
+    font-size: 5em;
+    padding-top: 150px;
+}
+#decouverte .decouverte p{
+    font-size: 20px;
+}
+#decouverte .decouverte-chiffre{
+    background-image:  url(images/decouverte.png);
+    display: flex;
+    position: absolute;
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top:-50px;
+    margin-left: 5%;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+}
+h5{
+    font-size: 3em;
+}
+
+/* APPRENANT */
+
+.apprenant{
+    width: 90%;
+    margin-top: 70px;
+    display: flex;
+    margin-left: 5%;
+}
+.info-apprenant h3{
+    border-bottom: solid 2px #000;
+}
+.info-apprenant p{
+    padding-top: 90px;
+}
+.card-apprenant{
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+    width: 480px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    margin-left: 70px;
+    margin-top: 70px;
+    
+}
+.card-apprenant-1{
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    margin-right: 70px;
+    
+}
+.card-apprenant-1 p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 20px;
+    
+}
+.card-apprenant p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 20px;
+    
+}
+.card-apprenant img{
+    border-bottom: solid 4px #ce0033;
+    margin-right: 45px;
+
+}
+/*Petites histoire de la communaute*/
+#phcom{
+    display: flex;
+    margin-left: 40px;
+}
+.phc-titre{
+    display: flex;
+}
+.phc-titre h6{
+    font-size: 1.5em;
+}
+.phc-img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.trait{
+    border: solid 1.5px #000;
+    border-radius: 10px;
+    width: 60px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    
+}
+
+
+/* EQUIPE PEDAGOGIQUE */
+.ep-img{
+    margin-left: 8%;
+}
+.Pedagogique-img{
+    margin-left: 8%;
+    box-shadow: 7px 5px 5px rgba(49, 48, 48, 0.484);
+}
+/*Formulaire*/
+#formulaire{
+    display: flex;
+}
+.adress-mail{
+    display: block;
+    text-decoration: none;
+    color: #6161617d;
+}
+.adress-div{
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+.adress h6{
+    font-size: 1.5em;
+}
+.adress .adress-div p{
+    font-size: 1.5em;
+}
+/*Formulaire*/
+#formulaire{
+   justify-content: center;
+}
+.form-nom .form-adress{
+    display: flex;;
+}
+.form{
+    width: 15rem;
+    height: 3rem;
+    margin: 8px;
+    color: #6161617d;
+}
+.form-message{
+    width: 31.5rem;
+    height: 9rem;
+    margin: 5px;
+    color: #6161617d
+}
+.form-checkbox{
+    display: flex;
+    margin: 5px;
+}
+#formulaire p{
+    padding-left: 3px;
+    color: #6161617d;
+}
+.form-checkbox p span{
+    color: #ce0033;
+    font-weight: bold;
+}
+.formulaire button{
+    background-color: #ce0033;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    width: 8rem;
+    height: 3rem;
+    margin: 5px;
+}
+
+/* FOOTER */
+
+footer section{
+    display: block;
+    width: 15%;
+}
+footer{
+    background-image: url(images/footer.jpeg);
+    background-size: 100vh;
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.p-footer1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.p-footer{
+    color: #ffffff;
+}
+.h5-footer{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.form-footer{
+    display: flex;
+}
+.a-footer{
+    color: #ffffff;
+    text-decoration: none;
+}
+.button-footer {
+    background-color: #ce0033;
+    border: none;
+    height: 2rem;
+    color: #ffffff;
+    border-radius: 3px;
+}
+#mail{
+    height: 2rem;
+    border-radius: 3px;
+}
+.footer2{
+    display: flex;
+    color: #ffffff;
+    background-color: #ce0033;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 1rem;
+}
