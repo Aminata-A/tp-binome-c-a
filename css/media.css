@@ -94,10 +94,10 @@
 
     /* SECTION HISTOIRE*/
 
-section{
-    display: block;
+    section {
+        display: block;
 
-}
+    }
 
 
     #petite-histoire h2 {
@@ -118,6 +118,7 @@ section{
     .histoire div {
         width: 100%;
     }
+
     #petite-histoire h3 {
         font-size: 24px;
         margin: 2rem;
@@ -137,5 +138,25 @@ section{
     }
 
 
+
+
+
+    .pédagogique {
+        display: block;
+        background-color: white;
+        justify-content: center;
+    }
+
+
+    .pédagogique .description {
+        margin-left: 1em;
+        margin-bottom: 10%;
+        text-align: center;
+        width: 90%;
+    }
+
     /* FIN SECTION HISTOIRE*/
+
+
+
 }
