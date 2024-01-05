@@ -53,10 +53,10 @@
     /**/
     #fabr h1 {
         font-size: 43px;
-        margin-bottom: 6em ;
+        margin-bottom: 6em;
         background-color: rgba(0, 0, 0, 0.369);
         position: relative;
-        top:3em;
+        top: 3em;
 
     }
 
@@ -88,4 +88,54 @@
         padding: 0 0 2em 0;
         /* Ajuster le rembourrage */
     }
+
+
+
+
+    /* SECTION HISTOIRE*/
+
+section{
+    display: block;
+
+}
+
+
+    #petite-histoire h2 {
+        font-size: 34px;
+        margin: 2rem;
+    }
+
+    #petite-histoire .histoire p {
+        width: 100%;
+    }
+
+    .histoire {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .histoire div {
+        width: 100%;
+    }
+    #petite-histoire h3 {
+        font-size: 24px;
+        margin: 2rem;
+    }
+
+    .histoire .texte {
+        left: 0%;
+        width: auto;
+        padding: 10px 0;
+        margin: 8.4em 0;
+        z-index: 22;
+        font-size: 22px;
+    }
+
+    .histoire .ouverture {
+        width: 100%;
+    }
+
+
+    /* FIN SECTION HISTOIRE*/
 }
