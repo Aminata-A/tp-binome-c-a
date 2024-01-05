@@ -28,11 +28,12 @@
         justify-content: center;
         text-align: center;
     }
+
     header select {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin:  0 4em;
+        margin: 0 4em;
     }
 
     header ul li a {
@@ -47,5 +48,44 @@
         width: 100%;
         color: rgba(197, 197, 197, 0.903);
         font-size: 16px;
+    }
+
+    /**/
+    #fabr h1 {
+        font-size: 43px;
+        margin-bottom: 6em ;
+        background-color: rgba(0, 0, 0, 0.369);
+        position: relative;
+        top:3em;
+
+    }
+
+    .fabrique {
+        width: 90%;
+        top: 42%;
+        display: block;
+    }
+
+    .fabrique div {
+        width: 100%;
+    }
+
+    .fabrique div h2 {
+        font-size: 20px;
+        /* Réduire la taille de la police */
+    }
+
+    .fabrique div p {
+        padding: 0;
+        /* Supprimer le rembourrage */
+    }
+
+    .fabrique div:nth-child(1) p {
+        border-right: none;
+        /* Supprimer la bordure droite */
+        border-bottom: 4px solid white;
+        /* Ajouter une bordure en bas pour séparer les sections */
+        padding: 0 0 2em 0;
+        /* Ajuster le rembourrage */
     }
 }
