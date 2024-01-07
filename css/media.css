@@ -217,6 +217,45 @@
 
     /* FIN SECTION HISTOIRE*/
 
+    #pedagogie{
+        display: block;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #pedagogie  h2{
+        font-size: 4vh;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #C3323A;
+    }  
+.pedagogie .peda-plier {
+   
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; 
+    text-align: left;
+    display: block;
+    width: 90%;
+    margin-bottom: 12px;
+
+   }
+   .pedagogie .fab-text-bg {
+   
+  width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    right: 1em;
+   }
+
 
 
 }
+
