@@ -354,6 +354,190 @@ header div button{
    }
 /**/
 
+
+
+#valeurs {
+
+    align-items: center;
+    position: relative;
+    background: var(--primary-color3);
+    width: 100%;
+    height: 138vh;
+    margin: 0;
+    padding: 0;
+justify-content: center;
+    
+    }
+
+
+#valeurs .row h1{
+    font-size: 6vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    color: #C3323A;
+    position: relative;
+    padding: 0vh 70vh;
+
+}
+
+#valeurs .val-resp .val-text{
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin:0 26vh;
+    top: 2vh;
+    left: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+    
+
+.valeurs .val-resp {
+   
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh; 
+    text-align: left;
+    display: flex;
+    width: 85%;
+    margin-bottom: 5vh;
+
+   }
+  
+
+#valeurs .val-resp h2{
+    font-size: 6vh;
+    text-align: left;
+    margin:  2vh;
+    position: relative;
+    left:8vh;
+    bottom: 28vh;
+    color: #C3323A;
+}
+#valeurs .val-resp .val-text p{
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh; 
+    height: 28vh;
+    text-align: left;
+    position: absolute  ;
+    margin:4vh;
+    top: 26vh;
+    width: 40%;
+    left: 7vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+               
+.valeurs .val-resp .box {
+     
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    bottom: 8vh;
+    margin: 0;
+    padding: 0;
+  }
+           
+.valeurs .val-resp .box-resp {
+     
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2.3vh; 
+    height: 20vh;
+    text-align: left;
+    position: relative;
+    top: 22vh;
+    float: none;
+    padding: 0 1vh ;
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }       
+.valeurs .val-resp .box-resp .blog{
+     
+    position: relative;
+    width: 56vh;
+
+   }         
+.valeurs .val-resp .box-resp .numb {
+     
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vh; 
+    color: var(--primary-color);
+    text-align: left;
+
+    background-color: #bf80837d;  
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 75vh;
+    float: left;
+    right: 2vh;
+    padding: 1vh;
+    color: #C3323A;
+   }
+            
+.valeurs .val-resp .box-resp .resp-text {
+     
+    position: relative;
+    display: block;
+    margin: 2vh;
+
+
+   }
+       
+             
+.valeurs .val-resp .box-resp h3 {
+     
+    position: relative;
+    font-size: 4vh; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    margin: 1vh;
+
+
+   }
+       
+.valeurs .val-resp .box-resp p {
+     
+    position: relative;
+    font-size: 3vh; 
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 6vh;
+    width: 50vh;
+
+   }
+
+   #valeurs .val-resp .box .btn{
+    align-items: start;
+    height: 6vh;
+    text-align: center;
+    position: relative  ;
+    background: var(--primary-color);
+    border-radius: 8vh;
+    width: 20vh;
+    color: #efefef;
+    top:0vh;
+    right: 98vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#valeurs .val-resp .box .btn a{
+    font-size: 3vh;
+    position: relative  ;
+    color: #efefef;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
 /* EQUIPE */
 
 #equipe h2{
@@ -719,4 +903,17 @@ footer{
     justify-content: space-between;
     height: 3rem;
     padding: 1rem;
+}
+
+
+:root {
+    --primary-color: #b11d3a;
+    --primary-color2: #262626;
+    --primary-color3: #ffffff;
+    --primary-bg: #efefef;
+    --primary-color5: #FFDCDE;
+    --primary-color6: #181818;
+    --primary-color7: #FFEBEB
+
+    --font-title: 'Franklin Gothic   ';
 }
