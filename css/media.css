@@ -373,5 +373,19 @@
 
 
 
+/**/
+.recrutement {
+    display: block;
+}
 
+.recrutement img{
+    width: 80%;
+    height: auto;
+  
+
+}
+.recrutement-text{
+    width:80%;
+    margin: 3rem 4rem;
+}
 }
