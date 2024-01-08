@@ -433,4 +433,39 @@ width: 100%;
     color: #8f8a8a49;
 }
 
+/**/
+.cards-discussion {
+    display: block;
+    grid-template-columns: repeat(auto-fill, minmax(2, 1fr));
+    grid-gap: 20px;
+    width: 100%; 
+
+    justify-content: space-around;
+    align-items: center;
+  }
+ .card-discussion {
+    display: grid;
+    justify-content: space-around;
+    /* grid-template-columns: max-content 200px 1fr; */
+    padding: 1em;
+    width: 90%;
+
+    text-align: center;
+}
+.image-discussion {
+    object-fit: cover;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+.discussion p{
+    text-align: center;
+    font-size: 3em;
+    width: 90%;
+
+}
+  
+/**/
+/**/
+/**/
 }
