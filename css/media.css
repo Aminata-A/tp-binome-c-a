@@ -388,4 +388,33 @@
     width:80%;
     margin: 3rem 4rem;
 }
+
+
+
+
+/**/
+#offres{
+    border: #b4b4b44f solid 2vh;
+width: 100%;
+    display: block;
+    margin-top: 5em;
+    justify-content: space-around;
+}
+.offres{
+    background-color: #fff4f4;
+    width: 100%;
+    padding: 3em;
+    border-radius: 30px;
+}
+.premier-section-offre {
+width: 100%;
+}
+.deuxieme-section-offre p{
+    width: 80%;
+    display: none;
+}
+.premier-section-offre h4{
+    font-size: 1.3em;
+}
+
 }
