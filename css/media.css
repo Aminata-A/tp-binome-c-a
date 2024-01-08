@@ -417,4 +417,20 @@ width: 100%;
     font-size: 1.3em;
 }
 
+
+
+/**/
+.form{
+    width: 70%;
+    height: 3rem;
+    margin: 18px;
+    color: #8f8a8a49;
+}
+.form-message{
+    width: 70%;
+    height: 9rem;
+    margin: 18px;
+    color: #8f8a8a49;
+}
+
 }
