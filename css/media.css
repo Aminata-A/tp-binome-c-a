@@ -273,7 +273,6 @@
    #valeurs .val-resp .val-text{
 
     top: 2vh;
-    left: 23vh;
     display: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   
@@ -303,6 +302,15 @@
     left:8vh;
     bottom: 8vh;
     color: #C3323A;
+}
+
+#valeurs .row h1{
+    color: #e1e0e1;
+    font-size: 2.4em;
+    text-align: center;
+    background: #ce0033;
+    padding: 10vh 5vh;
+
 }
 
 
@@ -466,6 +474,17 @@ width: 100%;
 }
   
 /**/
+footer{
+    display:block ;
+    margin-top: 2rem;
+    width: 100%;
+}
+footer .blog{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+
+}
 /**/
 /**/
 }
