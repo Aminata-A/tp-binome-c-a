@@ -1,0 +1,106 @@
+/* Media Queries pour les téléphones en mode portrait */
+@media screen and (max-width: 852px) {
+   section {
+       margin: 3vh 0;
+   }
+   header {
+    height: 100%;
+    display: block;
+    text-align: center;
+   }
+   header nav {
+    display: block;
+    height: 10px;
+   }
+   #chiffre {
+    display: block;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    
+   }
+   #chiffre img{
+    width: 100%;
+
+   }
+   
+   #chiffre p{
+    font-size: 0.6em;
+    width: 320px;
+    height: 100%;
+
+   }
+   #chiffre h1 {
+    font-size: 30px;
+    width: 300px;
+}
+#nouvelles {
+display: none;
+position: relative;}
+   
+
+#nouvelles h2{
+    
+    font-size: 30px;
+    width: 300px;
+}
+.actualite {
+    display: block;
+    height: 100vh;
+}
+   
+
+.actualite h3{
+   display: block;
+    padding: 0%;
+    margin: 0%;
+    font-size: 30px;
+    width: 300px;
+}
+.total-actualite{
+    display: block;
+
+}
+#event {
+    display: block;
+}
+#event .event-list {
+    display: block;
+    
+}
+#event .event-text {
+  font-size: 15px;
+  width: 90%;
+    
+}
+
+#event .event-list div.event-item:nth-child(1) {
+    flex-wrap: wrap;
+    display: flex;    
+    width: 330px;
+    height:130px;
+    background: #ce0033;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2vh 0;
+}
+
+#event .event-list div.event-item:nth-child(2) {
+    display: flex;
+    width: 330px;
+    height: 130px;
+    background: #ce0033;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+#decouverte {
+    height: 100%;
+
+}
+#decouverte .decouverte-h1{
+    font-size: 2em;
+    padding-top: 150px;
+}
+}
