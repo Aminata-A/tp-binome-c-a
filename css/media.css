@@ -472,7 +472,41 @@ width: 100%;
     width: 90%;
 
 }
-  
+
+
+/**/
+.candidature {
+    width:100%;
+    justify-content: center;
+
+}
+.candidature .titre {
+    color: #e1e0e1;
+    font-size: 2em;
+    text-align: center;
+    margin: rem;
+    background: #ce0033;
+}
+.candidature .contener {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 8vh 4vh;
+
+}
+
+.candidature .modul .descrip h3 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+
+
 /**/
 footer{
     display:block ;
