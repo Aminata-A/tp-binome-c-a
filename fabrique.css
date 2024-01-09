@@ -954,6 +954,7 @@ img {
 }
 
 .candidature .modul .profil span {
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding: 19px;
@@ -987,11 +988,58 @@ img {
 
 
 
+/**/
+
+
+/* candidature */
+
+.partenaire {
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: 13vh 0;
+
+}
+
+.partenaire .titre {
+    font-size: 6vh;
+    text-align: center;
+    position: relative;
+    color: #C3323A;
+
+}
+
+.partenaire .contener {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 8vh 0;
+
+}
+
+
+.partenaire .contener .modul {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 
 
 
+.partenaire .modul img {
+    width: 62%;
+    height: 62%;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 8vh 0;
 
+}
 
 /* FOOTER */
 

@@ -506,6 +506,39 @@ width: 100%;
 }
 
 
+/**/
+.partenaire {
+    width:100%;
+    justify-content: center;
+
+}
+.partenaire .titre {
+    color: #e1e0e1;
+    font-size: 2em;
+    text-align: center;
+    margin: rem;
+    background: #ce0033;
+}
+.partenaire .contener {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 8vh 4vh;
+
+}
+
+.partenaire .modul img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+
 
 /**/
 footer{
