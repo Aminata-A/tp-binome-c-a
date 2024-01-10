@@ -1,0 +1,450 @@
+/* Media Queries pour les téléphones en mode portrait */
+@media screen and (max-width: 852px) {
+   section {
+       margin: 5vh 0;
+   }
+   header {
+    height: 40vh;
+    display: block;
+    text-align: center;
+
+   }
+   header ul {
+    display: block;
+    height: 60px;
+   }
+   header .cont {
+    justify-content: end;
+    position: absolute;
+    bottom: 350px;
+   }
+   header i button {
+    display: none;
+    position: relative;
+   }
+   #chiffre {
+    display: block;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    
+   }
+   #chiffre img{
+    width: 100%;
+
+   }
+   
+   #chiffre p{
+    font-size: 0.6em;
+    width: 320px;
+    height: 100%;
+
+   }
+   #chiffre h1 {
+    font-size: 30px;
+    width: 300px;
+}
+#nouvelles {
+display: none;
+position: relative;}
+   
+
+#nouvelles h2{
+    
+    font-size: 30px;
+    width: 300px;
+}
+.actualite {
+    display: block;
+    height: 100vh;
+}
+   
+
+.actualite h3{
+   display: block;
+    padding: 0%;
+    margin: 0%;
+    font-size: 30px;
+    width: 300px;
+}
+.total-actualite{
+    display: block;
+
+}
+#event {
+    display: block;
+}
+#event .event-list {
+    display: block;
+    
+}
+#event .event-text {
+  font-size: 15px;
+  width: 90%;
+    
+}
+
+#event .event-list div.event-item:nth-child(1) {
+    flex-wrap: wrap;
+    display: flex;    
+    width: 330px;
+    height:130px;
+    background: #ce0033;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2vh 0;
+}
+
+#event .event-list div.event-item:nth-child(2) {
+    display: flex;
+    width: 330px;
+    height: 130px;
+    background: #ce0033;
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+#decouverte {
+    height: 100%;
+
+}
+#decouverte .decouverte-h1{
+    font-size: 2em;
+    padding-top: 150px;
+}
+#formateurs {
+    width: 75%;
+    margin: 8%;
+    padding: 0%;
+    display: block;
+    height: 100vh;
+}
+#formateurs img{
+    width: 500px;
+    display: block;
+    height: 500px;
+}
+#formateurs h3 {
+font-size: 1.5em;
+margin: 0;
+}
+#formateurs .formateur-list {
+    width: 100%;
+    display: block; 
+    margin:0; 
+}
+.formateur-item{
+    display: block;
+    width: 110%;
+    height: 500px;
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+}
+#formateurs .formateurs-text {
+    font-size: 1em;
+    width: 300px;
+    height: 100%;
+    display: block;
+    margin: 0;
+    
+
+}
+#formateurs h6 {
+    font-size: 1em;
+    display: block;
+}
+.apprenant{
+    width: 90%;
+    margin-top: 500px;
+    display: block;
+    margin-left: 8%;
+    
+}
+.info-apprenant h3{
+    border-bottom: solid 2px #000;
+    font-size: 1.5em;
+}
+.info-apprenant p{
+    padding-top: 90px;
+    font-size: 1em;
+    padding: 0;
+}
+
+.card-apprenant{
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+    width: 320px;
+    height: 470px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 8px;
+    font-size: 1em;
+    
+}
+.card-apprenant p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0;
+    margin: 8px;
+    
+}
+.card-apprenant img{
+    border-bottom: solid 4px #ce0033;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 8px;
+    padding: 0%;
+
+}
+.apprenant-1{
+    width: 90%;
+    margin-top: 100px;
+    display: block;
+    margin-left: 8%;
+    
+}
+.card-apprenant-1{
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+    width: 320px;
+    height: 470px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 8px;
+    font-size: 1em;
+    
+}
+.card-apprenant-1 p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0;
+    margin: 8px;
+    
+}
+.card-apprenant-1 img{
+    border-bottom: solid 4px #ce0033;
+    width: 300px;
+    height: 300px;
+    margin: 8px;
+    padding: 0%;
+
+}
+.communauté  h3{
+    font-size: 1.3em;
+    margin: 0;
+}
+#phcom{
+    display: block;
+    margin-left: 40px;
+}
+.phc-titre{
+    display: block;
+}
+.phc-titre h6{
+    font-size: 1em;
+}
+.phc-img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.trait{
+    border: solid 1.5px #000;
+    border-radius: 10px;
+    width: 60px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    
+}
+/*fin petite histoire de la communauté */
+
+/* EQUIPE PEDAGOGIQUE */
+.ep-img{
+    margin-left: 8%;
+}
+#equipe-pedagogique h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+.Pedagogique-img{
+    width: 340px;
+    height: 300px;
+    margin-left: 8%;
+    box-shadow: 7px 5px 5px rgba(49, 48, 48, 0.484);
+}
+/*fin équipe pédagogique */
+.alumni{
+    width: 90%;
+    margin-top: 70px;
+    display: block;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info-alumni h3{
+    border-bottom: solid 2px #000;
+}
+.info-alumni p{
+    padding-top: 90px;
+}
+.card-alumni{
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+    width: 320px;
+    height: 470px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    padding: 0;
+    margin: 8px;
+    font-size: 1em;
+    
+}
+.card-alumni p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0;
+    margin: 8px;
+    
+}
+.card-alumni img{
+    border-bottom: solid 4px #ce0033;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 8px;
+    padding: 0%;
+
+}
+
+
+
+/*fin alumni */
+
+/*Formulaire*/
+#formulaire {
+    display: block;
+}
+#FORMULAIRE h2{
+    
+    font-size: 1.6em;
+    
+}
+.adress-mail{
+    display: block;
+    text-decoration: none;
+    color: #6161617d;
+}
+.adress-div{
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+}
+.adress h6{
+    font-size: 1.5em;
+}
+.adress .adress-div p{
+    font-size: 1.5em;
+}
+/*Formulaire*/
+.FORMULAIRE {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#formulaire{
+   justify-content: center;
+}
+.form-nom .form-adress{
+    display: block;
+}
+.form{
+    width: 15rem;
+    height: 3rem;
+    margin: 8px;
+    color: #6161617d;
+}
+.form-message{
+    width: 15rem;
+    height: 9rem;
+    margin: 5px;
+    color: #6161617d
+}
+.form-checkbox{
+    display: block;
+    margin: 5px;
+}
+#formulaire p{
+    padding-left: 3px;
+    color: #6161617d;
+}
+.form-checkbox p span{
+    color: #ce0033;
+    font-weight: bold;
+}
+.formulaire button{
+    background-color: #ce0033;
+    border: none;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    width: 8rem;
+    height: 3rem;
+    margin: 5px;
+}
+
+/* FOOTER */
+
+footer section{
+    display: block;
+    width: 15%;
+}
+footer{
+    background-image: url(images/footer.jpeg);
+    background-size: 100vh;
+    min-height: 60vh;
+    display: block;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.p-footer1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.p-footer{
+    color: #ffffff;
+}
+.h5-footer{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.form-footer{
+    display: block;
+}
+.a-footer{
+    color: #ffffff;
+    text-decoration: none;
+}
+.button-footer {
+    background-color: #ce0033;
+    border: none;
+    height: 2rem;
+    color: #ffffff;
+    border-radius: 3px;
+}
+#mail{
+    height: 2rem;
+    border-radius: 3px;
+}
+.footer2{
+    display: block;
+    color: #ffffff;
+    background-color: #ce0033;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 1rem;
+}
+footer section{
+    display: block;
+    width: 400px;
+}
+
+}

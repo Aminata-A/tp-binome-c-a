@@ -12,7 +12,7 @@
 body{
     background-color: #f8f8f8;
     min-height: 100vh;   
-    font-size: 16px;
+    font-size: 1.5em;
     width: 100%;
 }
 h2, h3{
@@ -38,42 +38,60 @@ h3{
 /* HEADER */
 header{
     display: flex;
-    height: 50px;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 40px;
+    margin-left: 10%;
+   justify-items: flex-end;
+   justify-content: space-between;
+
 }
-header nav a{
-    justify-content: space-around;
-    margin: 10px;
-    text-decoration: none;
-    color: #000;
-}
+
 header img {
-    width: 150px;
-    height: 50;
+    height: 50px;
+    width: 100px;
+    margin-right: 30px;
 }
 
-/* header nav:hover{
-    text-decoration: underline;
-    color:#ce0033
-} */
-header a:hover,
-header a.active {
-    color: #ce0033 ;
-    text-decoration: underline;
+header ul{
+    display: flex;
+    padding: 0;
 }
-#header-select{
+
+header ul li {
+    list-style: none;
+} 
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 30px;
+}
+header ul li a:hover{
+    text-decoration: underline #ce0033;
+    font-size: 30px;
+    color: #ce0033;
+  
+}
+header div{
+    padding-top: -10%;
+}
+header div select{
     border: none;
+    color: #ce0033;
+    background-color: white;
 }
 
-header button{
+
+header div button{
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin: 20px;
+    border: none;
     background-color: #ce0033;
-    width: 70px;
-    height: 35px;
-    color: #f8f8f8;
-    border-radius: 35px;
-    border: none;
+    color: white;
 }
 
 /* MAIN */
@@ -102,7 +120,7 @@ main{
     left: 0;
     bottom: 0;
     right: 0;
-    position:absolute;
+    position:relative;
     z-index: 1;
 }
 #banniere p, #banniere h1 {
@@ -112,7 +130,7 @@ main{
     padding-bottom: 15px;
 }
 #banniere h1{
-    font-size: 40px;
+    font-size: 2em;
 }
 #banniere button{
     position: relative;
@@ -130,10 +148,10 @@ main{
     font-weight: bold;
     font-size: 3em;
 }
+/*fin banniere */
 
 
 /* CHIFFRES */
-
 
 #chiffre img{
     width: 20%;
@@ -163,8 +181,65 @@ main{
 #chiffre div h1 {
     color: #ce0033;
 }
+/*fin chiffres */
 
+/*ACTUALITES */
 
+#nouvelles .actualite{
+    display: flex;
+    align-items: center;
+    margin-left:3.5% ;
+    
+    width: 80%;
+} 
+/*
+#nouvelles .actualite{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+   
+}*/
+#nouvelles .image-act p{
+    color: #fff;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30px;
+    padding-bottom: 8px;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 200px;
+    margin-top: -10px;
+    position: relative;
+    background-color: #ce0033;
+}
+#nouvelles .image-act p span{
+    font-size: 0.4em;
+}
+#nouvelles .img-actualite{
+    width: 20vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+#nouvelles .total-actualite{
+    padding: 20px;
+
+}
+#nouvelles .actualite-1{
+    font-weight: bold;
+}
+#nouvelles h4{
+    color: #ce0033;
+    font-size: 1.5em;
+    text-align: right;
+}
+#nouvelles h4 span{
+    color: #fff;
+    background-color: #ce0033;
+    padding: 5px;
+    border-radius: 50%;
+}
+/*fin actualités */
 
 /* EVENT */
 
@@ -196,7 +271,7 @@ main{
     border-radius: 10px;
 }
 .event-nombre{
-    font-size: 30px;
+    font-size: 2.5em;
     font-weight: bold;
 
 }
@@ -207,57 +282,48 @@ main{
     font-weight: bold;
 }
 
-/* ACTUALITES */
+/*
 
-#nouvelles .actualite{
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    margin-left:3.5% ;
-    
-    width: 80%;
-}
-#nouvelles .image-act p{
-    color: #fff;
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30px;
-    padding-bottom: 8px;
-    border-radius: 0px 0px 20px 20px;
-    margin-left: 200px;
-    margin-top: -10px;
-    position: absolute;
-    background-color: #ce0033;
-}
-#nouvelles .image-act p span{
-    font-size: 10px;
-}
-#nouvelles .img-actualite{
-    width: 20vw;
-    height: 10vw;
-    border-radius: 10px;
-}
-#nouvelles .total-actualite{
-    padding: 20px;
 
+
+
+/* DECOUVERTE */
+
+#decouverte .decouverte{
+    background-image:linear-gradient(#5144443e, #514444b1) , url(images/35.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 8%;
+    padding-left: 8%;
+    margin-top: 50px;
+    color: white;
 }
-#nouvelles .actualite-1{
-    font-weight: bold;
+#decouverte .decouverte-h1{
+    font-size: 5em;
+    padding-top: 150px;
 }
-#nouvelles h4{
-    color: #ce0033;
+#decouverte .decouverte p{
     font-size: 1.5em;
-    text-align: right;
 }
-#nouvelles h4 span{
+#decouverte .decouverte-chiffre{
+    background-image:  url(images/decouverte.png);
+    display: flex;
+    position: relative;
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top:-50px;
+    margin-left: 5%;
+    justify-content: space-around;
+    text-align: center;
     color: #fff;
-    background-color: #ce0033;
-    padding: 5px;
-    border-radius: 50%;
 }
-
+h5{
+    font-size: 3em;
+}
+/*fin découverte */
 
 /* FORMATEURS */
 
@@ -284,45 +350,9 @@ main{
     width: 40%;
 } 
 .formateurs-text h6{
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
-
-/* DECOUVERTE */
-
-#decouverte .decouverte{
-    background-image:linear-gradient(#5144443e, #514444b1) , url(images/35.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    position: relative;
-    padding-top: 8%;
-    padding-left: 8%;
-    margin-top: 50px;
-    color: white;
-}
-#decouverte .decouverte-h1{
-    font-size: 5em;
-    padding-top: 150px;
-}
-#decouverte .decouverte p{
-    font-size: 20px;
-}
-#decouverte .decouverte-chiffre{
-    background-image:  url(images/decouverte.png);
-    display: flex;
-    position: absolute;
-    width: 90%;
-    border-radius: 10px;
-    padding: 15px;
-    margin-top:-50px;
-    margin-left: 5%;
-    justify-content: space-around;
-    text-align: center;
-    color: #fff;
-}
-h5{
-    font-size: 3em;
-}
+/*fin formateurs */
 
 /* APPRENANT */
 
@@ -348,21 +378,6 @@ h5{
     margin-top: 70px;
     
 }
-.card-apprenant-1{
-    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
-    width: 500px;
-    height: 400px;
-    border-radius: 15px;
-    background-color: #f8f8f8;
-    margin-right: 70px;
-    
-}
-.card-apprenant-1 p{
-    font-weight: bold;
-    font-size: 1em;
-    padding: 20px;
-    
-}
 .card-apprenant p{
     font-weight: bold;
     font-size: 1em;
@@ -374,6 +389,25 @@ h5{
     margin-right: 45px;
 
 }
+.card-apprenant-1{
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+    width: 480px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    margin-right: 70px;
+    
+}
+.card-apprenant-1 p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 20px;
+    
+}
+
+/*fin apprenant */
+
+
 /*Petites histoire de la communaute*/
 #phcom{
     display: flex;
@@ -398,7 +432,7 @@ h5{
     margin-bottom: 15px;
     
 }
-
+/*fin petite histoire de la communauté */
 
 /* EQUIPE PEDAGOGIQUE */
 .ep-img{
@@ -408,9 +442,49 @@ h5{
     margin-left: 8%;
     box-shadow: 7px 5px 5px rgba(49, 48, 48, 0.484);
 }
+/*fin équipe pédagogique */
+.alumni{
+    width: 90%;
+    margin-top: 70px;
+    display: flex;
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.info-alumni h3{
+    border-bottom: solid 2px #000;
+}
+.info-alumni p{
+    padding-top: 90px;
+}
+.card-alumni{
+    box-shadow: 1px 5px 5px rgba(49, 48, 48, 0.484);
+    width: 480px;
+    height: 635px;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    margin-left: 70px;
+    margin-top: 70px;
+    
+}
+.card-alumni p{
+    font-weight: bold;
+    font-size: 1em;
+    padding: 40px;
+    
+}
+.card-alumni img{
+    border-bottom: solid 5px #ce0033;
+    margin-right: 15px;
+
+}
+
+/*fin alumni */
+
 /*Formulaire*/
 #formulaire{
     display: flex;
+    
 }
 .adress-mail{
     display: block;
@@ -428,11 +502,15 @@ h5{
     font-size: 1.5em;
 }
 /*Formulaire*/
+.FORMULAIRE {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 #formulaire{
    justify-content: center;
 }
 .form-nom .form-adress{
-    display: flex;;
+    display: flex;
 }
 .form{
     width: 15rem;
